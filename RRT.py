@@ -215,8 +215,8 @@ class RRT:
         fig= plt.figure(figsize=(10,10))
 
 
-        plt.xlim(0,100)
-        plt.ylim(0,100)
+        plt.xlim(0,self.x_lim)
+        plt.ylim(0,self.y_lim)
         plt.plot(xcoord,ycoord,'o')
 
 
