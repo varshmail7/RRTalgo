@@ -251,8 +251,11 @@ class RRT:
 if __name__ == '__main__':
     try:
         rrt = RRT()
-        rrt.evaluateRRT()
-        rrt.plotRRT()
+        res = rrt.evaluateRRT()
+        if res == 1:
+            rrt.plotRRT()
+        else:
+            pass
 
     except:
         print("ERROR")
