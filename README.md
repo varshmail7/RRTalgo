@@ -48,6 +48,9 @@ There are 2 paramters that can be tinkered with, according to the application.
 # Output
 The RRT map is generated in blue and the obstacles are in red
 1. If the goal is reached, the terminal prints Goal Reached! and the path is highlighted in Green. 
-![alt text](https://github.com/varshmail7/RRTalgo/blob/master/path.png?raw=true)
+![Image with path hightlighted in green](https://github.com/varshmail7/RRTalgo/blob/master/path.png?raw=true)
 2. If the goal is not reached, there is no path highlighted in green. The number of nodes or qdel must be altered to get a path.
+![Image with no path hightlighted in green](https://github.com/varshmail7/RRTalgo/blob/master/nopath.png?raw=true)
+3. If the destination or start point is unreachable, an error message is displayed.
+
 
